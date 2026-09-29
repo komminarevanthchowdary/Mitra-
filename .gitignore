@@ -1,0 +1,33 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+frontend/.env.local
+frontend/.env.*.local
+vercel-appdata/
+frontend/.agents/
+frontend/skills-lock.json
+
+# JavaScript
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

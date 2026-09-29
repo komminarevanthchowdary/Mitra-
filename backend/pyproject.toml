@@ -1,0 +1,16 @@
+[project]
+name = "mitra-solar-api"
+version = "0.1.0"
+description = "FastAPI backend for Mitra Solar Enterprises"
+requires-python = ">=3.12"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["app"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.alembic]
+script_location = "alembic"
